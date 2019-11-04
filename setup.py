@@ -1,9 +1,10 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='djangoCryptoSolve',
     version='',
-    packages=['django'],
+    install_requires=['django'],
+    packages=find_packages(),
     url='',
     license='',
     author='marcio.sobral',
