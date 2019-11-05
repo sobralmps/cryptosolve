@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+@font-face {
+    font-family:frozen;
+    src: url('frozen.ttf');
+}
+
+
+html {
+}
+
+body{
+    background-color: black;
+    background-size: 100%;
+}
+
+.countainer{
+    min-width: 960px;
+    margin: 0 auto;
+}
+
+
+
+section{
+    color: black;
+    background-image: linear-gradient(315deg, black, #00FF7F 40%, black);
+    font-family: cursive;
+    font-size: 70px;
+    float: left;
+    min-height: 935px;
+    line-height: 1.22;
+    width: 50%;
+    padding: 0px 0px 0px 0px;
+    text-align: right;
+}
+
+aside{
+    background-image: linear-gradient(45deg, black , #00FF7F 40%, black);
+    float: right;
+    min-height: 935px;
+    width: 50%;
+    line-height: 0.943;
+    text-align: left;
+}
+
+footer{
+    color: yellow;
+    clear: both;
+    background-color: black;
+    font-family: helvetica, arial;
+    font-size: 30px;
+    padding: 0px 0px 0px 0px;
+    line-height: 1;
+    text-align: center;
+}
+
+.efeito{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 935px;
+}
+
+#menu a{
+    font-size: 50px;
+    color: yellow;
+    text-shadow: 3px 3px 3px black;
+    line-height: 1;
+    text-align: left;
+    text-decoration: none;
+    padding: 20px;
+    float: left;
+}
+
+#menu a:hover{
+    background-color: white;
+}
+
+#img{
+    background-image: url('logo.png');
+    background-size: 100%;
+    background-position: center;
+    height: 0px;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 43%;
+}
+
+#teste{
+    font-family:frozen;
+    color: black;
+    height: 0px;
+    text-align: center;
+    line-height:5;
+    width: 100%;
+    font-size: 130px;
+    text-shadow: 3px 3px 3px orange;
+}
