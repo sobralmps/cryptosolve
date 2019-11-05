@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 
-def home(request):
-    return render(request, 'crypto/home.html')
+def test2(request):
+    return render(request, 'crypto/test2.html')
 
-def menu(request):
-    return render(request, 'crypto/menu.html')
+def test3(request):
+    return render(request, 'crypto/test3.html')

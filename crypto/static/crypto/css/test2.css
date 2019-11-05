@@ -3,13 +3,22 @@
         padding: 0;
         }
 
+        @font-face {
+        font-family: frozen;
+        src: url('../font/frozen.ttf')
+        }
+
+        @font-face {
+        font-family: gameover;
+        src: url('../font/gameover.ttf')
+        }
+
         body {
         margin: 0px;
-        font-family: 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', sans-serif;
         }
 
         div {
-            margin:0px;
+        margin:0px;
         }
 
         .Homepage {
@@ -22,7 +31,7 @@
         .Homepage .Label {
         color: #3bff00;
         text-align: left;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family: frozen;
         font-size: 120px;
         letter-spacing: 0;
         line-height: 1;
@@ -46,8 +55,8 @@
         .Homepage .Label_2 {
         color: #ffffff;
         text-align: justify;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 40px;
+        font-family: gameover;
         letter-spacing: 0;
         line-height: 1;
         grid-column-start: 1;
@@ -59,8 +68,8 @@
         .Homepage .Label_1 {
         color: #333333;
         text-align: left;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 17px;
+        font-family: gameover;
         letter-spacing: 0;
         line-height: 1;
         grid-column-start: 2;
@@ -72,8 +81,8 @@
         .Homepage .Label_3 {
         color: #3bff00;
         text-align: left;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 60px;
+        font-family: gameover;
         letter-spacing: 0;
         line-height: 1;
         margin-right: 24%;
@@ -86,8 +95,8 @@
         background-color: #333333;
         color: #ffffff;
         text-align: center;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 40px;
+        font-family: gameover;
         letter-spacing: 0;
         line-height: 1.7;
         cursor: pointer;
