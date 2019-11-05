@@ -6,12 +6,13 @@
 
 @font-face {
     font-family:frozen;
-    src: url('frozen.ttf');
+    src: url('../font/frozen.ttf');
 }
 
-
-html {
-}
+@font-face {
+        font-family: gameover;
+        src: url('../font/gameover.ttf')
+        }
 
 body{
     background-color: black;
@@ -64,6 +65,7 @@ footer{
 }
 
 #menu a{
+    font-family: gameover;
     font-size: 50px;
     color: yellow;
     text-shadow: 3px 3px 3px black;
@@ -90,7 +92,7 @@ footer{
 }
 
 #teste{
-    font-family:frozen;
+    font-family: frozen;
     color: black;
     height: 0px;
     text-align: center;
