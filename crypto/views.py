@@ -11,3 +11,7 @@ def test2(request):
 
 def secret(request):
     return render(request, 'crypto/secret.html')
+
+
+def end(request):
+    return render(request, 'crypto/end.html')
