@@ -10,8 +10,10 @@
 }
 
 body{
+    background-image: linear-gradient(315deg, #00FF7F, black 40%, #00FF7F);
     background-color: black;
     background-size: 100%;
+    min-height: 963px;
 }
 
 .container{
@@ -24,8 +26,67 @@ body{
     color: white;
     height: 0px;
     text-align: center;
-    line-height:5;
+    line-height:4;
     width: 100%;
     font-size: 130px;
     text-shadow: 3px 3px 3px orange;
+}
+
+#botoes{
+    height: 0px;
+    line-height: 13;
+}
+
+#b1:hover, #b2:hover, #b3:hover{
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    text-shadow: 3px 3px 3px orange;
+    border:1px solid #FF8C00;
+    border-radius:29px;
+}
+
+#b1 a{
+    color: black;
+    font-family: frozen;
+    padding: 10px;
+    text-decoration:none;
+}
+
+#b2 a{
+    color: black;
+    font-family: frozen;
+    padding: 10px;
+    text-decoration:none;
+}
+
+#b3 a{
+    color: black;
+    font-family: frozen;
+    padding: 10px;
+    text-decoration:none;
+}
+
+#b3 a:hover{
+    color: white;
+}
+
+#b2 a:hover{
+    color: white;
+}
+
+#b1 a:hover{
+    color: white;
+}
+
+#b1, #b2, #b3{
+    color: black;
+    font-family: frozen;
+    border:1px solid green;
+    border-radius:29px;
+    cursor:pointer;
+    font-size:30px;
+    padding: 10px;
+    text-decoration:none;
+    text-shadow: 3px 3px 3px green;
 }
