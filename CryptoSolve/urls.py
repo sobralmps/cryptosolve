@@ -19,7 +19,8 @@ from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',test1,name='url_test1'),
-    path('menu', test2, name='url_test2'),
+    path('', test1, name='url_test1'),
+    path('menu/', test2, name='url_test2'),
+    path('secret/', secret, name='url_secret'),
 
 ]
