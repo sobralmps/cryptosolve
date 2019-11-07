@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+@font-face {
+    font-family: frozen;
+    src: url('../font/frozen.ttf');
+}
+
+body{
+    background-image: linear-gradient(315deg, #00FF7F, black 40%, #00FF7F);
+    background-color: black;
+    background-size: 100%;
+    min-height: 963px;
+}
+
+#principal h1{
+    font-family: frozen;
+    color: white;
+    height: 0px;
+    text-align: center;
+    line-height:4;
+    width: 100%;
+    font-size: 130px;
+    text-shadow: 3px 3px 3px orange;
+}
+#exp{
+    background-color: black;
+    border:1px solid orange;
+    border-radius:29px;
+    height: 599px;
+    position: absolute;
+    bottom: 1%;
+    left: 5%;
+    width: 90%;
+}
+#exp p{
+    font-family: frozen;
+    color: white;
+    height: 0px;
+    text-align: center;
+    line-height:8;
+    width: 100%;
+    font-size: 40px;
+    text-shadow: 3px 3px 3px orange;
+}

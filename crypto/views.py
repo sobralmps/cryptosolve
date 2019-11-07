@@ -15,3 +15,6 @@ def secret(request):
 
 def end(request):
     return render(request, 'crypto/end.html')
+
+def faq(request):
+    return render(request, 'crypto/faq.html')
