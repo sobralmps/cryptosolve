@@ -18,3 +18,6 @@ def end(request):
 
 def faq(request):
     return render(request, 'crypto/faq.html')
+
+def cont(request):
+    return render(request, 'crypto/contato.html')
