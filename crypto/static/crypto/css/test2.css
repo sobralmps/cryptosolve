@@ -4,6 +4,10 @@
 
 }
 
+html{
+    height: 100%;
+}
+
 @font-face {
     font-family: frozen;
     src: url('../font/frozen.ttf');
@@ -13,7 +17,6 @@ body{
     background-image: linear-gradient(315deg, #00FF7F, black 40%, #00FF7F);
     background-color: black;
     background-size: 100%;
-    min-height: 963px;
 }
 
 .container{

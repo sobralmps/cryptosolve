@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html{
+    height: 100%;
+}
+
 @font-face {
     font-family:frozen;
     src: url('../font/frozen.ttf');
@@ -23,37 +27,25 @@ body{
     margin: 0 auto;
 }
 
-
-
 section{
-    color: black;
     background-image: linear-gradient(315deg, black, #00FF7F 40%, black);
-    font-family: cursive;
-    font-size: 70px;
     float: left;
-    min-height: 935px;
-    line-height: 1.22;
     width: 50%;
-    padding: 0px 0px 0px 0px;
-    text-align: right;
+    height: 100%;
 }
 
 aside{
     background-image: linear-gradient(45deg, black , #00FF7F 40%, black);
     float: right;
-    min-height: 935px;
+    height: 100%;
     width: 50%;
-    line-height: 0.943;
-    text-align: left;
 }
 
 footer{
     color: yellow;
-    clear: both;
     background-color: black;
     font-family: helvetica, arial;
     font-size: 30px;
-    padding: 0px 0px 0px 0px;
     line-height: 1;
     text-align: center;
 }
