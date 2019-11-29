@@ -4,12 +4,12 @@
     }
 
     @font-face {
-        font-family: logo;
+        font-family: frozen;
         src: url('../font/frozen.ttf');
     }
 
     @font-face {
-        font-family: text;
+        font-family: gameover;
         src: url('../font/gameover.ttf');
     }
 
@@ -31,7 +31,7 @@
 	    z-index:11;
 	    width:100%;
 	    height:100%;
-	    animation: gradeff 0.1s linear infinite;
+	    animation: gradeff 2s linear infinite;
     }
 
     .container {
@@ -79,9 +79,9 @@
         left: 0%;
         text-align: center;
         bottom: 0;
-        font-family: logo;
+        font-family: frozen;
         font-size: 40px;
-        animation: texteff 0.1s linear infinite;
+        animation: texteff 4s linear infinite;
     }
 
     .girando{
@@ -168,7 +168,7 @@
 
     @keyframes gradeff{
         0% {
-            background-image: linear-gradient(circle, #404040, #a020f0, black);
+            background-image: radial-gradient(circle, #404040, #404040, black);
         }
         25% {
             background-image: radial-gradient(circle, black, #404040, black);
@@ -177,10 +177,10 @@
             background-image: radial-gradient(circle, #7a297a, black, #404040);
         }
         75% {
-            background-image: radial-gradient(circle, black, #404040, #a020f0);
+            background-image: radial-gradient(circle, black, #404040, #404040);
         }
         100% {
-            background-image: linear-gradient(circle, #404040, black, black);
+            background-image: radial-gradient(circle, #404040, black, black);
         }
     }
 

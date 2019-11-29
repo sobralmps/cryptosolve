@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+@font-face {
+    font-family: frozen;
+    src: url('../font/frozen.ttf');
+}
+
+body{
+    background-image: linear-gradient(315deg, #00FF7F, black 40%, #00FF7F);
+    background-color: black;
+    background-size: 100%;
+}
+
+#principal h1{
+    font-family: frozen;
+    color: white;
+    height: 0px;
+    text-align: center;
+    line-height:2;
+    width: 100%;
+    font-size: 130px;
+    text-shadow: 3px 3px 3px orange;
+}
+#exp{
+    background-image: linear-gradient(45deg, rgba(128,128,128, 0.6), rgba(0,0,0, 0.6), rgba(128,128,128, 0.6));
+    border:1px solid orange;
+    border-radius:29px;
+    height: 599px;
+    position: absolute;
+    bottom: 0.1%;
+    left: 0.1%;
+    width: 99.7%;
+}
+#exp p{
+    font-family: frozen;
+    color: white;
+    height: 0px;
+    text-align: center;
+    line-height:1.2;
+    width: 100%;
+    font-size: 40px;
+    text-shadow: 3px 3px 3px orange;
+}
+
+#exp i{
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    bottom: 10%;
+    text-shadow: 3px 3px 3px orange;
+}
+
+#voltar a{
+    background-image: linear-gradient(#00FF7F, black);
+    border:3px solid black;
+    border-radius:29px;
+    font-family: frozen;
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 3px 3px 3px orange;
+    margin: 1px;
+    line-height: 1.89;
+    padding: 10px;
+}
+
+#voltar a:hover{
+    background-image: linear-gradient(black, #00FF7F);
+}

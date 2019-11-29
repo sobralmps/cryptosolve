@@ -4,12 +4,12 @@
     }
 
     @font-face {
-        font-family: logo;
+        font-family: frozen;
         src: url('../font/frozen.ttf');
     }
 
     @font-face {
-        font-family: text;
+        font-family: gameover;
         src: url('../font/gameover.ttf');
     }
 
@@ -32,7 +32,7 @@
     }
 
     .textcong {
-        font-family: text;
+        font-family: gameover;
         color: black
         text-align: center;
         font-size: 200px;

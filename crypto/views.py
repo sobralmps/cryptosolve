@@ -23,3 +23,10 @@ def faq(request):
 
 def cont(request):
     return render(request, 'crypto/contato.html')
+
+
+def fase01(request):
+    return render(request, 'crypto/fase01.html')
+
+def instrucoes(request):
+    return render(request, 'crypto/instrucoes.html')

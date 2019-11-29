@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fase 01</title>
+    <link rel="shortcut icon" type='image/png' href="{% static 'crypto/favicon/favicon.ico' %}">
+    <link rel="stylesheet" href="{% static 'crypto/css/game.css' %}">
+    <script src="{% static 'crypto/js/game.js' %}"></script>
+</head>
+<body>
+<h3 id="help">?</h3>
+<h1>Nível 1</h1>
+<h2>Texto criptografado: prtnw kwetf</h2>
+<h2>Key: inicio</h2>
+<form method="POST" onsubmit="return checar(this)">
+    {% csrf_token %}
+    Digite a mensagem descriptografada:<br>
+    <input type="text" name="cryptotext" autocomplete="off">
+    <input type="submit" value="Confirmar">
+</form>
+<h3>(mensagem: "hello world")</h3>
+<h3 id="back"><</h3>
+</body>
+</html>
