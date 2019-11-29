@@ -3,7 +3,99 @@
     padding: 0;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+@font-face {
+    font-family: frozen;
+    src: url('../font/frozen.ttf');
+}
+
 body{
+    background-image: linear-gradient(315deg, #00FF7F, black 50%, #00FF7F);
     background-color: black;
+    background-size: 100%;
+}
+
+#titles h1{
+    font-family: frozen;
+    text-align: center;
+    font-size: 120px;
     color: white;
+}
+
+#titles h2, h3{
+    font-family: helvetica,arial;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    text-shadow: 3px 3px 3px orange;
+}
+
+#bord{
+    background-image: linear-gradient(45deg, rgba(128,128,128, 0.6), rgba(0,0,0, 0.6), rgba(128,128,128, 0.6));
+    border: 5px solid orange;
+    border-radius:50px;
+    padding: 50px;
+}
+
+#formulario{
+    background-image: linear-gradient(45deg, rgba(128,128,128, 0.6), rgba(0,0,0, 0.6), rgba(128,128,128, 0.6));
+    border: 5px solid orange;
+    border-radius:50px;
+    color: white;
+    font-family: helvetica, arial;
+    font-size: 60px;
+    text-align: center;
+}
+
+#caixa{
+    background-image: linear-gradient(45deg, rgba(128,128,128, 0.4), rgba(0,0,0, 0.4), rgba(128,128,128, 0.4));
+    border: 5px solid orange;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+#continuar{
+    background-image: linear-gradient(#00FF7F, black);
+    border:3px solid black;
+    border-radius:29px;
+    font-family: frozen;
+    font-size: 35px;
+    color: white;
+    text-shadow: 3px 3px 3px orange;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#continuar:hover{
+    background-image: linear-gradient(black, #00FF7F);
+    cursor:pointer;
+    padding: 15px;
+}
+
+#voltar a, #help a{
+    background-image: linear-gradient(#00FF7F, black);
+    border:3px solid black;
+    border-radius:29px;
+    font-family: frozen;
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 3px 3px 3px orange;
+    margin: 1px;
+    line-height: 1.89;
+    padding: 11px 20px 11px 20px;
+}
+
+#voltar a:hover, #help a:hover{
+    background-image: linear-gradient(black, #00FF7F);
+    cursor:pointer;
 }

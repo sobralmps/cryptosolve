@@ -1,26 +1,40 @@
 <!DOCTYPE html>
 {% load static %}
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Fase 01</title>
-    <link rel="shortcut icon" type='image/png' href="{% static 'crypto/favicon/favicon.ico' %}">
-    <link rel="stylesheet" href="{% static 'crypto/css/game.css' %}">
-    <script src="{% static 'crypto/js/game.js' %}"></script>
-    <script src="{% static 'crypto/js/base.js' %}"></script>
-</head>
-<body>
-<button id="help" onclick="window.location.href=('../ajuda1')">?</button>
-<h1>Nível 1</h1>
-<h2>Texto criptografado: prtnw kwetf</h2>
-<h2>Key: inicio</h2>
-<form method="POST" onsubmit="return checar(this)">
-    {% csrf_token %}
-    Digite a mensagem descriptografada:<br>
-    <input type="text" name="cryptotext" autocomplete="off">
-    <input type="submit" value="Confirmar">
-</form>
-<h3>(mensagem: "hello world")</h3>
-<button id="back" onclick="backButton()"><</button>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Fase 01</title>
+        <link rel="shortcut icon" type='image/png' href="{% static 'crypto/favicon/favicon.ico' %}">
+        <link rel="stylesheet" href="{% static 'crypto/css/game.css' %}">
+        <script src="{% static 'crypto/js/game.js' %}"></script>
+        <script src="{% static 'crypto/js/base.js' %}"></script>
+    </head>
+    <body>
+        <div id="help">
+            <a onclick="window.location.href=('../ajuda1')">?</a>
+        </div>
+        <div id="titles">
+            <h1>Nível 1</h1><br>
+            <div id="bord">
+                <h2>Texto criptografado: prtnw kwetf</h2><br>
+                <h2>Key: inicio</h2>
+                <br><br>
+                <h3>(mensagem: "hello world")</h3>
+            </div>
+        </div>
+        <br><br><br>
+        <div id="formulario">
+            <form method="POST" onsubmit="return checar(this)">
+                {% csrf_token %}
+                <a><b><i>Digite a mensagem descriptografada:</i></b></a><br>
+                <input id="caixa" type="text" name="cryptotext" autocomplete="off">
+                <br>
+                <input id="continuar" type="submit" value="Confirmar">
+            </form>
+        </div>
+        <br><br><br>
+        <div id="voltar">
+            <a onclick="backButton()"><</a>
+        </div>
+    </body>
 </html>
