@@ -13,8 +13,8 @@ def congrats(request):
     return render(request, 'crypto/congrats.html')
 
 
-def endgame(request):
-    return render(request, 'crypto/endgame.html')
+def fim(request):
+    return render(request, 'crypto/fim.html')
 
 
 def faq(request):
