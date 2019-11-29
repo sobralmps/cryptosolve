@@ -3,7 +3,59 @@
     padding: 0;
 }
 
+html{
+    height: 100%;
+}
+
+@font-face {
+    font-family: frozen;
+    src: url('../font/frozen.ttf');
+}
+
 body{
+    background-image: linear-gradient(315deg, #00FF7F, black 40%, #00FF7F);
     background-color: black;
+    background-size: 100%;
+}
+
+.container{
+    min-width: 960px;
+    margin: 0 auto;
+}
+
+#titulo{
+    font-family: frozen;
+    text-align: center;
+    font-size: 100px;
     color: white;
+    text-shadow: 3px 3px 3px orange;
+}
+#principal{
+    border:3px solid black;
+    border-radius:29px;
+    font-family: frozen;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding: 70px;
+    text-shadow: 3px 3px 3px orange;
+}
+
+#voltar a{
+    background-image: linear-gradient(#00FF7F, black);
+    border:3px solid black;
+    border-radius:29px;
+    font-family: frozen;
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 3px 3px 3px orange;
+    margin: 1px;
+    line-height: 1.89;
+    padding: 10px;
+}
+
+#voltar a:hover{
+    background-image: linear-gradient(black, #00FF7F);
+    cursor:pointer;
 }

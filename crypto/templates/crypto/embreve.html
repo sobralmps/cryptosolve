@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 {% load static %}
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>CryptoSolve: Em manutenção</title>
-    <link rel="shortcut icon" type='image/png' href="{% static 'crypto/favicon/favicon.ico' %}">
-    <link rel="stylesheet" href="{% static 'crypto/css/embreve.css' %}">
-    <script src="{% static 'crypto/js/base.js' %}"></script>
-</head>
-<body>
-<h1>Página ainda em manutenção</h1>
-<button onclick="backButton()">Voltar</button>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>CryptoSolve: Em manutenção</title>
+        <link rel="shortcut icon" type='image/png' href="{% static 'crypto/favicon/favicon.ico' %}">
+        <link rel="stylesheet" href="{% static 'crypto/css/embreve.css' %}">
+        <script src="{% static 'crypto/js/base.js' %}"></script>
+    </head>
+    <body>
+        <div id="voltar">
+            <a onclick="backButton()">Voltar</a>
+        </div>
+        <h1 id="titulo">Daily Quests</h1>
+        <br><br><br><br><br><br><br>
+        <div id="principal">
+            <div id="Quest1">Quest1</div>
+            <hr>
+            <div id="Quest2">Quest2</div>
+            <hr>
+            <div id="Quest3">Quest3</div>
+        </div>
+    </body>
 </html>

@@ -73,4 +73,5 @@ body{
 
 #voltar a:hover{
     background-image: linear-gradient(black, #00FF7F);
+    cursor:pointer;
 }
