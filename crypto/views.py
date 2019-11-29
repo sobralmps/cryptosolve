@@ -1,23 +1,25 @@
 from django.shortcuts import render, redirect
 
 
-def test1(request):
-    return render(request, 'crypto/test1.html')
+def homepage(request):
+    return render(request, 'crypto/home.html')
 
 
-def test2(request):
-    return render(request, 'crypto/test2.html')
+def menu(request):
+    return render(request, 'crypto/menu.html')
 
 
-def secret(request):
-    return render(request, 'crypto/secret.html')
+def congrats(request):
+    return render(request, 'crypto/congrats.html')
 
 
-def end(request):
-    return render(request, 'crypto/end.html')
+def endgame(request):
+    return render(request, 'crypto/endgame.html')
+
 
 def faq(request):
     return render(request, 'crypto/faq.html')
+
 
 def cont(request):
     return render(request, 'crypto/contato.html')
