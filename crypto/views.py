@@ -41,13 +41,5 @@ def ajuda1(request):
     return render(request, 'crypto/ajuda1.html')
 
 
-def ajuda2(request):
-    return render(request, 'crypto/ajuda2.html')
-
-
-def ajuda3(request):
-    return render(request, 'crypto/ajuda3.html')
-
-
 def comojogar(request):
     return render(request, 'crypto/comojogar.html')

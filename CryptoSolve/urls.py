@@ -29,7 +29,5 @@ urlpatterns = [
     path('instrucoes/', views.instrucoes, name='url_instrucoes'),
     path('embreve/', views.embreve, name='url_embreve'),
     path('ajuda1/', views.ajuda1, name='url_ajuda1'),
-    path('ajuda2/', views.ajuda2, name='url_ajuda2'),
-    path('ajuda3/', views.ajuda3, name='url_ajuda3'),
     path('comojogar/', views.comojogar, name='url_comojogar'),
 ]
