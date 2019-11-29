@@ -28,5 +28,26 @@ def cont(request):
 def fase01(request):
     return render(request, 'crypto/fase01.html')
 
+
 def instrucoes(request):
     return render(request, 'crypto/instrucoes.html')
+
+
+def embreve(request):
+    return render(request, 'crypto/embreve.html')
+
+
+def ajuda1(request):
+    return render(request, 'crypto/ajuda1.html')
+
+
+def ajuda2(request):
+    return render(request, 'crypto/ajuda2.html')
+
+
+def ajuda3(request):
+    return render(request, 'crypto/ajuda3.html')
+
+
+def comojogar(request):
+    return render(request, 'crypto/comojogar.html')

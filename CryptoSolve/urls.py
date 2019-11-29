@@ -26,5 +26,10 @@ urlpatterns = [
     path('faq/', views.faq, name='url_faq'),
     path('contato/', views.cont, name='url_cont'),
     path('fase01/', views.fase01, name='url_fase01'),
-    path('instrucoes/', views.instrucoes, name='url_instrucoes')
+    path('instrucoes/', views.instrucoes, name='url_instrucoes'),
+    path('embreve/', views.embreve, name='url_embreve'),
+    path('ajuda1/', views.ajuda1, name='url_ajuda1'),
+    path('ajuda2/', views.ajuda2, name='url_ajuda2'),
+    path('ajuda3/', views.ajuda3, name='url_ajuda3'),
+    path('comojogar/', views.comojogar, name='url_comojogar'),
 ]

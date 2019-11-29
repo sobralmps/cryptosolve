@@ -7,9 +7,10 @@
     <link rel="shortcut icon" type='image/png' href="{% static 'crypto/favicon/favicon.ico' %}">
     <link rel="stylesheet" href="{% static 'crypto/css/game.css' %}">
     <script src="{% static 'crypto/js/game.js' %}"></script>
+    <script src="{% static 'crypto/js/base.js' %}"></script>
 </head>
 <body>
-<h3 id="help">?</h3>
+<button id="help" onclick="window.location.href=('../ajuda1')">?</button>
 <h1>Nível 1</h1>
 <h2>Texto criptografado: prtnw kwetf</h2>
 <h2>Key: inicio</h2>
@@ -20,6 +21,6 @@
     <input type="submit" value="Confirmar">
 </form>
 <h3>(mensagem: "hello world")</h3>
-<h3 id="back"><</h3>
+<button id="back" onclick="backButton()"><</button>
 </body>
 </html>
