@@ -3,7 +3,67 @@
     padding: 0;
 }
 
+html{
+    height: 100%;
+}
+
+@font-face {
+    font-family: frozen;
+    src: url('../font/frozen.ttf');
+}
+
 body{
+    background-image: linear-gradient(315deg, #00FF7F, black 50%, #00FF7F);
     background-color: black;
+    background-size: 100%;
+}
+
+td{
     color: white;
+}
+
+#titulo{
+    font-family: frozen;
+    color: black;
+    text-shadow: 3px 3px 3px orange;
+    font-size: 25px;
+    padding: 0px 0px 0px 10px;
+}
+
+#oito{
+    font-family: helvetica, arial;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    height: 20px;
+    position: absolute;
+    left: 40%;
+    bottom: 70%;
+}
+
+#sete{
+    background-image: linear-gradient(45deg, rgba(128,128,128, 0.6), rgba(0,0,0, 0.6), rgba(128,128,128, 0.6));
+    border: 5px solid orange;
+    border-radius:50px;
+    padding: 45px;
+}
+
+#voltar{
+    background-image: linear-gradient(#00FF7F, black);
+    border:3px solid black;
+    border-radius:29px;
+    font-family: frozen;
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 3px 3px 3px orange;
+    margin: 1px;
+    line-height: 1.89;
+    padding: 11px 20px 11px 20px;
+}
+
+#voltar:hover{
+    background-image: linear-gradient(black, #00FF7F);
+    cursor:pointer;
+
 }
