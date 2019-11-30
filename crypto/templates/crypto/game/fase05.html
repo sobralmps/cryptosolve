@@ -18,15 +18,15 @@
             <div id="bord">
                 <h2>Texto criptografado: wkzisrzm</h2><br>
                 <h2>Key: egito</h2>
-                <br><br>
+                <br>
                 <h3 style="font-size:15px; color: gray; text-shadow:none;">serpente</h3>
             </div>
         </div>
-        <br><br><br>
+        <br><br>
         <div id="formulario">
             <form method="POST" onsubmit="return checar(this)">
                 {% csrf_token %}
-                <a><b><i>Digite a mensagem descriptografada:</i></b></a><br>
+                <a><b>Digite a mensagem descriptografada:</b></a><br>
                 <input id="caixa" type="text" name="cryptotext" autocomplete="off">
                 <br>
                 <input id="continuar" type="submit" value="Confirmar">

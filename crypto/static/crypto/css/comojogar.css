@@ -12,9 +12,70 @@ html{
     src: url('../font/frozen.ttf');
 }
 
+@font-face {
+    font-family: gameover;
+    src: url('../font/gameover.ttf');
+}
+
 body{
+    touch-callout: none;
+    user-select: none;
     background-image: linear-gradient(315deg, #00FF7F, black 40%, #00FF7F);
     background-color: black;
     background-size: 100%;
 }
 
+#imagem{
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    transform: translate(0, -50%);
+    text-align: center;
+}
+
+#titulo{
+    text-align: center;
+    font-family: frozen;
+    color: white;
+    text-shadow: 3px 3px 3px orange;
+    font-size: 25px;
+    padding: 0px 0px 0px 10px;
+}
+
+#oito{
+    position: absolute;
+    width: 50%;
+    right: 0;
+    top: 0;
+    font-family: gameover;
+    font-size: 30px;
+    color: white;
+    text-align: left;
+}
+
+#sete{
+    background-image: linear-gradient(45deg, rgba(128,128,128, 0.6), rgba(0,0,0, 0.6), rgba(128,128,128, 0.6));
+    border: 5px solid orange;
+    border-radius:50px;
+    padding: 45px;
+}
+
+#voltar{
+    background-image: linear-gradient(#00FF7F, black);
+    border:3px solid black;
+    border-radius:29px;
+    font-family: frozen;
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 3px 3px 3px orange;
+    margin: 1px;
+    line-height: 1.89;
+    padding: 11px 20px 11px 20px;
+}
+
+#voltar:hover{
+    background-image: linear-gradient(black, #00FF7F);
+    cursor:pointer;
+
+}

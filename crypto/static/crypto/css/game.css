@@ -12,7 +12,14 @@ html{
     src: url('../font/frozen.ttf');
 }
 
+@font-face {
+    font-family: gameover;
+    src: url('../font/gameover.ttf');
+}
+
 body{
+    touch-callout: none;
+    user-select: none;
     background-image: linear-gradient(315deg, #00FF7F, black 50%, #00FF7F);
     background-color: black;
     background-size: 100%;
@@ -26,7 +33,7 @@ body{
 }
 
 #titles h2, h3{
-    font-family: helvetica,arial;
+    font-family: gameover;
     text-align: center;
     font-size: 50px;
     color: white;
@@ -45,8 +52,8 @@ body{
     border: 5px solid orange;
     border-radius:50px;
     color: white;
-    font-family: helvetica, arial;
-    font-size: 60px;
+    font-family: gameover;
+    font-size: 40px;
     text-align: center;
 }
 

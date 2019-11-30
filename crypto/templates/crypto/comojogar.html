@@ -9,7 +9,27 @@
         <script src="{% static 'crypto/js/base.js' %}"></script>
     </head>
     <body>
-        <h1>Página ainda em manutenção</h1>
-        <button onclick="backButton()">Voltar</button>
+        <a id="voltar" onclick="backButton()">Voltar</a>
+        <div id="cifra">
+            <img id="imagem" src="{% static 'crypto/img/comojogar.png' %}">
+            <div id="oito">
+                <ol id="sete">
+                    <h2 id="titulo" style="font-size:50px; color:white;">Como jogar?</h2>
+                    <br><br>
+                    <li>Botao de duvida: ajuda a identificar criptografia</li>
+                    <br>
+                    <li>Mostra a criptografia utilizada</li>
+                    <br>
+                    <li>Texto criptografado</li>
+                    <br>
+                    <li>Key ou outra forma que pode ser utilizada para descriptografar</li>
+                    <br>
+                    <li>Campo que digita a mensagem descriptografada</li>
+                    <br>
+                    <li>Botao de voltar: volta para a ultima pagina</li>
+                </ol>
+            </div>
+
+        </div>
     </body>
 </html>
