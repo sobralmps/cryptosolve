@@ -9,18 +9,18 @@
         <script src="{% static 'crypto/js/base.js' %}"></script>
         <script src="{% static 'crypto/js/quests.js' %}"></script>
     </head>
-    <body>
+    <body onload="gerarquests()">
         <div id="voltar">
             <a onclick="backButton()">Voltar</a>
         </div>
         <h1 id="titulo">Daily Quests</h1>
         <br><br><br><br><br><br><br>
         <div id="principal">
-            <div id="Quest1">Quest1</div>
+            <div id="Quest1"></div>
             <hr>
-            <div id="Quest2">Quest2</div>
+            <div id="Quest2"></div>
             <hr>
-            <div id="Quest3">Quest3</div>
+            <div id="Quest3"></div>
         </div>
     </body>
 </html>
