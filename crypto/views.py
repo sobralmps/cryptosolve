@@ -14,7 +14,7 @@ def congrats(request):
 
 
 def fim(request):
-    return render(request, 'crypto/fim.html')
+    return render(request, 'crypto/game/fim.html')
 
 
 def faq(request):
@@ -26,7 +26,39 @@ def cont(request):
 
 
 def fase01(request):
-    return render(request, 'crypto/fase01.html')
+    return render(request, 'crypto/game/fase01.html')
+
+
+def fase02(request):
+    return render(request, 'crypto/game/fase02.html')
+
+
+def fase03(request):
+    return render(request, 'crypto/game/fase03.html')
+
+
+def fase04(request):
+    return render(request, 'crypto/game/fase04.html')
+
+
+def fase05(request):
+    return render(request, 'crypto/game/fase05.html')
+
+
+def fase06(request):
+    return render(request, 'crypto/game/fase06.html')
+
+
+def fase07(request):
+    return render(request, 'crypto/game/fase07.html')
+
+
+def fase08(request):
+    return render(request, 'crypto/game/fase08.html')
+
+
+def fase09(request):
+    return render(request, 'crypto/game/fase09.html')
 
 
 def instrucoes(request):
