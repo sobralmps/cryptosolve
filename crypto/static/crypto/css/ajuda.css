@@ -48,6 +48,14 @@ td{
     text-align: left;
 }
 
+#imagem{
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    transform: translate(0, -50%);
+    text-align: center;
+}
+
 #sete{
     background-image: linear-gradient(45deg, rgba(128,128,128, 0.6), rgba(0,0,0, 0.6), rgba(128,128,128, 0.6));
     border: 5px solid orange;

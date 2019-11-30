@@ -1,10 +1,33 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <title>CryptoSolve: Ajuda</title>
+        <link rel="shortcut icon" type='image/png' href="{% static 'crypto/favicon/favicon.ico' %}">
+        <link rel="stylesheet" href="{% static 'crypto/css/ajuda.css' %}">
+        <script src="{% static 'crypto/js/base.js' %}"></script>
+    </head>
+    <body>
+        <a id="voltar" onclick="backButton()">Voltar</a>
+        <div id="cifra">
+            <img id="imagem" src="{% static 'crypto/img/nihilist.png' %}">
+            <div id="oito">
+                <ol id="sete">
+                    <h2 id="titulo" style="text-align: center; font-size:50px; color:white;">Nihilist</h2>
+                    <br><br>
+                    <li>Para descriptografar essa cifra e necessario se ter o texto criptografado e a key aditiva</li>
+                    <br>
+                    <li>Pode haver uma key para embaralhar o quadrado de Polibio e a key aditiva (usada como parametro para descriptografar)</li>
+                    <br>
+                    <li>Na imagem de cima vemos um exemplo do quadrado sem a key de Polibio, e na de baixo vemos um exemplo do quadrado embaralhado com a key "cryptosolve".</li>
+                    <br>
+                    <li>A criptografia ocorre ao se pegar o numero equivalente a letra do texto e somar essa numero ao numero equivalente a letra da key aditiva</li>
+                    <br>
+                    <li>Como exemplo, utilizando a tabela de baixo, texto normal: "CS" equivale a "11 22", se a key aditiva fosse "UM", ela equivaleria a "52 44", entao o texto criptografado seria: "63 66".</li>
+                </ol>
+            </div>
 
-</body>
+        </div>
+    </body>
 </html>

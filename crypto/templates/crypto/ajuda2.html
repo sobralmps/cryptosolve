@@ -1,10 +1,31 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <title>CryptoSolve: Ajuda</title>
+        <link rel="shortcut icon" type='image/png' href="{% static 'crypto/favicon/favicon.ico' %}">
+        <link rel="stylesheet" href="{% static 'crypto/css/ajuda.css' %}">
+        <script src="{% static 'crypto/js/base.js' %}"></script>
+    </head>
+    <body>
+        <a id="voltar" onclick="backButton()">Voltar</a>
+        <div id="cifra">
+            <img id="imagem" src="{% static 'crypto/img/cifradecesar.png' %}">
+            <div id="oito">
+                <ol id="sete">
+                    <h2 id="titulo" style="text-align: center; font-size:50px; color:white;">Cifra de César</h2>
+                    <br><br>
+                    <li>Para descriptografar essa cifra e necessario se ter o texto criptografado e a rotacao utlizada</li>
+                    <br>
+                    <li>Nesse exemplo foi utilizado uma rotacao 4 a->d</li>
+                    <br>
+                    <li>Onde o alfabeto normal e rotacionado 4 vezes para direita</li>
+                    <br>
+                    <li>Para descriptografar, bastaria uma rotacao de 4 vezes para a esquerda</li>
+                </ol>
+            </div>
 
-</body>
+        </div>
+    </body>
 </html>
