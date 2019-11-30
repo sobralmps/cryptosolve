@@ -21,7 +21,7 @@ def faq(request):
     return render(request, 'crypto/faq.html')
 
 
-def cont(request):
+def contato(request):
     return render(request, 'crypto/contato.html')
 
 
@@ -65,12 +65,24 @@ def instrucoes(request):
     return render(request, 'crypto/instrucoes.html')
 
 
-def embreve(request):
-    return render(request, 'crypto/embreve.html')
+def quests(request):
+    return render(request, 'crypto/quests.html')
 
 
-def ajuda1(request):
+def conquistas(request):
+    return render(request, 'crypto/conquistas.html')
+
+
+def vigenere(request):
     return render(request, 'crypto/ajuda1.html')
+
+
+def caesar(request):
+    return render(request, 'crypto/ajuda2.html')
+
+
+def nihilist(request):
+    return render(request, 'crypto/ajuda3.html')
 
 
 def comojogar(request):
