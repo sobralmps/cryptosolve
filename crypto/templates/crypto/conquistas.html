@@ -1,10 +1,26 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>CryptoSolve: Conquistas</title>
+        <link rel="shortcut icon" type='image/png' href="{% static 'crypto/favicon/favicon.ico' %}">
+        <link rel="stylesheet" href="{% static 'crypto/css/quests-conquistas.css' %}">
+        <script src="{% static 'crypto/js/base.js' %}"></script>
+        <script src="{% static 'crypto/js/conquistas.js' %}"></script>
+    </head>
+    <body onload="conquistas()">
+        <div id="voltar">
+            <a onclick="backButton()">Voltar</a>
+        </div>
+        <h1 id="titulo">Conquistas</h1>
+        <br><br><br><br><br><br><br>
+        <div id="principal">
+            <div id="Conquista1"></div>
+            <hr>
+            <div id="Conquista2"></div>
+            <hr>
+            <div id="Conquista3"></div>
+        </div>
+    </body>
 </html>

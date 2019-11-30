@@ -9,8 +9,8 @@ def menu(request):
     return render(request, 'crypto/menu.html')
 
 
-def congrats(request):
-    return render(request, 'crypto/congrats.html')
+def final(request):
+    return render(request, 'crypto/final.html')
 
 
 def fim(request):
