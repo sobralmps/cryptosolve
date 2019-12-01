@@ -14,7 +14,7 @@ pip install -r requirements.txt
 python setup.py develop
 ```
 
-4. Teste se funcionou
+4. Rode o projeto em um ambiente local
 
 ```
 python manage.py runserver
